@@ -18,13 +18,18 @@
                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AiE-69-cJR" customClass="ElementView" customModule="AC3_2_PeriodicTable" customModuleProvider="target">
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AiE-69-cJR" customClass="ElementView" customModule="AC3_2_PeriodicTable" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </subviews>
             </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="AiE-69-cJR" secondAttribute="trailing" id="3RL-7u-wa0"/>
+                <constraint firstItem="AiE-69-cJR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="6VB-b4-KIj"/>
+                <constraint firstAttribute="bottom" secondItem="AiE-69-cJR" secondAttribute="bottom" id="G4U-FZ-cTW"/>
+                <constraint firstItem="AiE-69-cJR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aJk-aA-iBb"/>
+            </constraints>
             <connections>
                 <outlet property="innerView" destination="AiE-69-cJR" id="vVl-d8-Yv6"/>
             </connections>

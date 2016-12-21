@@ -16,19 +16,18 @@
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view contentMode="scaleAspectFit" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="192" height="172"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jya-v9-LIL">
-                    <rect key="frame" x="0.0" y="0.5" width="192" height="172"/>
+                    <rect key="frame" x="0.0" y="0.0" width="192" height="172"/>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvE-mN-OaK">
-                    <rect key="frame" x="75" y="20" width="42" height="21"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IvE-mN-OaK">
+                    <rect key="frame" x="0.0" y="-14" width="192" height="172"/>
                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
@@ -36,10 +35,14 @@
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="IvE-mN-OaK" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-14" id="82b-ud-na0"/>
+                <constraint firstItem="IvE-mN-OaK" firstAttribute="width" secondItem="Jya-v9-LIL" secondAttribute="width" id="9i2-Fi-BM2"/>
                 <constraint firstItem="Jya-v9-LIL" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="ATh-Sy-Lfa"/>
+                <constraint firstItem="IvE-mN-OaK" firstAttribute="centerX" secondItem="Jya-v9-LIL" secondAttribute="centerX" id="GDm-Bh-FWa"/>
                 <constraint firstItem="Jya-v9-LIL" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" id="OCv-RG-KJL"/>
                 <constraint firstItem="Jya-v9-LIL" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="d3I-2a-Du6"/>
                 <constraint firstItem="Jya-v9-LIL" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="kAm-bj-oM6"/>
+                <constraint firstItem="IvE-mN-OaK" firstAttribute="height" secondItem="Jya-v9-LIL" secondAttribute="height" id="shx-SU-r32"/>
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>

@@ -14,6 +14,7 @@ class ElementCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        layer.borderWidth = 2
     }
 
 }

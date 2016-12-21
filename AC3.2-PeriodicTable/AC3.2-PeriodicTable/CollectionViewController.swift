@@ -66,7 +66,8 @@ class CollectionViewController: UICollectionViewController {
             print("inner view is nil")
         }
         
-        cell.innerView.symbolLabel?.text = "dwefwef"
+        cell.innerView.symbolLabel?.text = data[indexPath.row].0
+        cell.innerView.numberLabel?.text = String(data[indexPath.row].1)
     
         return cell
     }
