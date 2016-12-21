@@ -76,18 +76,11 @@
 		D3C93D9C1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
-				D3C93DC71E0B18E400D5F5F8 /* Element.swift */,
-				D3C93DC11E0B151200D5F5F8 /* DataController.swift */,
-				D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */,
-				D3C93DBE1E0B104E00D5F5F8 /* Model.xcdatamodeld */,
-				D3C93DB11E0AFACB00D5F5F8 /* Nibs */,
-				D3C93D9D1E0AFA6000D5F5F8 /* AppDelegate.swift */,
-				D3C93DA11E0AFA6100D5F5F8 /* Main.storyboard */,
-				D3C93DA41E0AFA6100D5F5F8 /* Assets.xcassets */,
-				D3C93DA61E0AFA6100D5F5F8 /* LaunchScreen.storyboard */,
 				D3C93DA91E0AFA6100D5F5F8 /* Info.plist */,
-				D3C93DAF1E0AFA8A00D5F5F8 /* CollectionViewController.swift */,
-				D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */,
+				D3C93DCF1E0B228400D5F5F8 /* Services */,
+				D3C93DCE1E0B226D00D5F5F8 /* Controllers */,
+				D3C93DCD1E0B224B00D5F5F8 /* Models */,
+				D3C93DCC1E0B221800D5F5F8 /* UI */,
 			);
 			path = "AC3.2-PeriodicTable";
 			sourceTree = "<group>";
@@ -109,6 +102,45 @@
 				D3C93DCA1E0B19D300D5F5F8 /* CoreData.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3C93DCC1E0B221800D5F5F8 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				D3C93DA11E0AFA6100D5F5F8 /* Main.storyboard */,
+				D3C93DA41E0AFA6100D5F5F8 /* Assets.xcassets */,
+				D3C93DA61E0AFA6100D5F5F8 /* LaunchScreen.storyboard */,
+				D3C93DB11E0AFACB00D5F5F8 /* Nibs */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		D3C93DCD1E0B224B00D5F5F8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D3C93DC71E0B18E400D5F5F8 /* Element.swift */,
+				D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */,
+				D3C93DBE1E0B104E00D5F5F8 /* Model.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D3C93DCE1E0B226D00D5F5F8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D3C93DC11E0B151200D5F5F8 /* DataController.swift */,
+				D3C93DAF1E0AFA8A00D5F5F8 /* CollectionViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D3C93DCF1E0B228400D5F5F8 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D3C93D9D1E0AFA6000D5F5F8 /* AppDelegate.swift */,
+				D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
