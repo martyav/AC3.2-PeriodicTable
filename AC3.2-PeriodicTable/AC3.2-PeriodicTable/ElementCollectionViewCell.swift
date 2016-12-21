@@ -9,7 +9,8 @@
 import UIKit
 
 class ElementCollectionViewCell: UICollectionViewCell {
-
+    @IBOutlet weak var innerView: ElementView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
