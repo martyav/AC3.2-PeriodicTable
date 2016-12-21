@@ -20,7 +20,6 @@
 		D3C93DC21E0B151200D5F5F8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC11E0B151200D5F5F8 /* DataController.swift */; };
 		D3C93DC41E0B165600D5F5F8 /* Elements+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */; };
 		D3C93DC61E0B175B00D5F5F8 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */; };
-		D3C93DC81E0B18E400D5F5F8 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC71E0B18E400D5F5F8 /* Element.swift */; };
 		D3C93DCB1E0B19D300D5F5F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C93DCA1E0B19D300D5F5F8 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,7 +39,6 @@
 		D3C93DC11E0B151200D5F5F8 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Elements+JSON.swift"; sourceTree = "<group>"; };
 		D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
-		D3C93DC71E0B18E400D5F5F8 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 		D3C93DCA1E0B19D300D5F5F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -118,7 +116,6 @@
 		D3C93DCD1E0B224B00D5F5F8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				D3C93DC71E0B18E400D5F5F8 /* Element.swift */,
 				D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */,
 				D3C93DBE1E0B104E00D5F5F8 /* Model.xcdatamodeld */,
 			);
@@ -219,7 +216,6 @@
 			files = (
 				D3C93DC61E0B175B00D5F5F8 /* APIRequestManager.swift in Sources */,
 				D3C93DB01E0AFA8A00D5F5F8 /* CollectionViewController.swift in Sources */,
-				D3C93DC81E0B18E400D5F5F8 /* Element.swift in Sources */,
 				D3C93DC21E0B151200D5F5F8 /* DataController.swift in Sources */,
 				D3C93DB51E0AFB1200D5F5F8 /* ElementView.swift in Sources */,
 				D3C93DC01E0B104E00D5F5F8 /* Model.xcdatamodeld in Sources */,

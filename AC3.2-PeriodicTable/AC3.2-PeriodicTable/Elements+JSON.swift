@@ -7,3 +7,19 @@
 //
 
 import Foundation
+
+extension Element {
+    func populateFrom(dict: [String:Any]) {
+        guard let name = dict["name"] as? String,
+            let number = dict["number"] as? Int16,
+            let group = dict["group"] as? Int16,
+            let weight = dict["weight"] as? Double,
+            let symbol = dict["symbol"] as? String else { return }
+        
+        self.name = name
+        self.number = number
+        self.weight = weight
+        self.group = group
+        self.symbol = symbol
+    }
+}
