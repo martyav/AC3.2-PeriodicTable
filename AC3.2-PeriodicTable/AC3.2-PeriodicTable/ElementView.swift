@@ -10,8 +10,16 @@ import UIKit
 
 class ElementView: UIView {
 
-    @IBOutlet weak var numberLabel: UILabel!
     @IBOutlet weak var symbolLabel: UILabel!
+    @IBOutlet weak var numberLabel: UILabel!
+    
+    /*
+    // Only override draw() if you perform custom drawing.
+    // An empty implementation adversely affects performance during animation.
+    override func draw(_ rect: CGRect) {
+        // Drawing code
+    }
+    */
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -22,10 +30,8 @@ class ElementView: UIView {
         
         if let view = Bundle.main.loadNibNamed("ElementView", owner: self, options: nil)?.first as? UIView {
             self.addSubview(view)
+            self.backgroundColor = .clear
             view.frame = self.bounds
-            
-            numberLabel.text = ""
-            symbolLabel.text = ""
         }
     }
 

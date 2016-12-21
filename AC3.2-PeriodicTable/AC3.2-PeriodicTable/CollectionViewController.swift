@@ -8,12 +8,12 @@
 
 import UIKit
 
-private let reuseIdentifier = "elementCell"
+private let reuseIdentifier = "Cell"
 
 class CollectionViewController: UICollectionViewController {
-
-    let data = [("H", 1), ("He", 2), ("Li", 3)]
     
+    let data = [("H", 1), ("He", 2), ("Li", 3)]
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -24,6 +24,11 @@ class CollectionViewController: UICollectionViewController {
         self.collectionView!.register(UINib(nibName:"ElementCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
+    }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 
     /*
@@ -53,11 +58,15 @@ class CollectionViewController: UICollectionViewController {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! ElementCollectionViewCell
     
         // Configure the cell
-        
         cell.backgroundColor = .blue
         
-        cell.innerView?.numberLabel?.text = "hi"//data[indexPath.row].0
-        cell.innerView?.numberLabel?.textColor = .white
+        if cell.innerView != nil {
+            print("we have an inner view")
+        } else {
+            print("inner view is nil")
+        }
+        
+        cell.innerView.symbolLabel?.text = "dwefwef"
     
         return cell
     }

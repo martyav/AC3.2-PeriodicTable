@@ -7,33 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D38358681E0AD9EF00337886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38358671E0AD9EF00337886 /* AppDelegate.swift */; };
-		D383586D1E0AD9EF00337886 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D383586B1E0AD9EF00337886 /* Main.storyboard */; };
-		D383586F1E0AD9EF00337886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D383586E1E0AD9EF00337886 /* Assets.xcassets */; };
-		D38358721E0AD9F000337886 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D38358701E0AD9F000337886 /* LaunchScreen.storyboard */; };
-		D383587A1E0ADAC800337886 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38358791E0ADAC800337886 /* CollectionViewController.swift */; };
-		D38358801E0ADB9300337886 /* ElementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D383587E1E0ADB9300337886 /* ElementCollectionViewCell.swift */; };
-		D38358811E0ADB9300337886 /* ElementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D383587F1E0ADB9300337886 /* ElementCollectionViewCell.xib */; };
-		D38358831E0ADC5300337886 /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38358821E0ADC5300337886 /* ElementView.swift */; };
-		D38358851E0ADC6E00337886 /* ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D38358841E0ADC6E00337886 /* ElementView.xib */; };
+		D3C93D9E1E0AFA6000D5F5F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93D9D1E0AFA6000D5F5F8 /* AppDelegate.swift */; };
+		D3C93DA31E0AFA6100D5F5F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C93DA11E0AFA6100D5F5F8 /* Main.storyboard */; };
+		D3C93DA51E0AFA6100D5F5F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C93DA41E0AFA6100D5F5F8 /* Assets.xcassets */; };
+		D3C93DA81E0AFA6100D5F5F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C93DA61E0AFA6100D5F5F8 /* LaunchScreen.storyboard */; };
+		D3C93DB01E0AFA8A00D5F5F8 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DAF1E0AFA8A00D5F5F8 /* CollectionViewController.swift */; };
+		D3C93DB31E0AFADD00D5F5F8 /* ElementView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C93DB21E0AFADD00D5F5F8 /* ElementView.xib */; };
+		D3C93DB51E0AFB1200D5F5F8 /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DB41E0AFB1200D5F5F8 /* ElementView.swift */; };
+		D3C93DBC1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DBA1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift */; };
+		D3C93DBD1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C93DBB1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D38358641E0AD9EF00337886 /* AC3.2-PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-PeriodicTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D38358671E0AD9EF00337886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D383586C1E0AD9EF00337886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D383586E1E0AD9EF00337886 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D38358711E0AD9F000337886 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D38358731E0AD9F000337886 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D38358791E0ADAC800337886 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
-		D383587E1E0ADB9300337886 /* ElementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementCollectionViewCell.swift; sourceTree = "<group>"; };
-		D383587F1E0ADB9300337886 /* ElementCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementCollectionViewCell.xib; sourceTree = "<group>"; };
-		D38358821E0ADC5300337886 /* ElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
-		D38358841E0ADC6E00337886 /* ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ElementView.xib; path = ../ElementView.xib; sourceTree = "<group>"; };
+		D3C93D9A1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC3.2-PeriodicTable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C93D9D1E0AFA6000D5F5F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3C93DA21E0AFA6100D5F5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C93DA41E0AFA6100D5F5F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C93DA71E0AFA6100D5F5F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3C93DA91E0AFA6100D5F5F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C93DAF1E0AFA8A00D5F5F8 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		D3C93DB21E0AFADD00D5F5F8 /* ElementView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementView.xib; sourceTree = "<group>"; };
+		D3C93DB41E0AFB1200D5F5F8 /* ElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
+		D3C93DBA1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementCollectionViewCell.swift; sourceTree = "<group>"; };
+		D3C93DBB1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D38358611E0AD9EF00337886 /* Frameworks */ = {
+		D3C93D971E0AFA6000D5F5F8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -43,73 +43,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D383585B1E0AD9EF00337886 = {
+		D3C93D911E0AFA6000D5F5F8 = {
 			isa = PBXGroup;
 			children = (
-				D38358661E0AD9EF00337886 /* AC3.2-PeriodicTable */,
-				D38358651E0AD9EF00337886 /* Products */,
+				D3C93D9C1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable */,
+				D3C93D9B1E0AFA6000D5F5F8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D38358651E0AD9EF00337886 /* Products */ = {
+		D3C93D9B1E0AFA6000D5F5F8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D38358641E0AD9EF00337886 /* AC3.2-PeriodicTable.app */,
+				D3C93D9A1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D38358661E0AD9EF00337886 /* AC3.2-PeriodicTable */ = {
+		D3C93D9C1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
-				D38358671E0AD9EF00337886 /* AppDelegate.swift */,
-				D38358731E0AD9F000337886 /* Info.plist */,
-				D383587D1E0ADADE00337886 /* Models */,
-				D383587C1E0ADAD400337886 /* UI */,
-				D383587B1E0ADACC00337886 /* Controllers */,
+				D3C93DB11E0AFACB00D5F5F8 /* Nibs */,
+				D3C93D9D1E0AFA6000D5F5F8 /* AppDelegate.swift */,
+				D3C93DA11E0AFA6100D5F5F8 /* Main.storyboard */,
+				D3C93DA41E0AFA6100D5F5F8 /* Assets.xcassets */,
+				D3C93DA61E0AFA6100D5F5F8 /* LaunchScreen.storyboard */,
+				D3C93DA91E0AFA6100D5F5F8 /* Info.plist */,
+				D3C93DAF1E0AFA8A00D5F5F8 /* CollectionViewController.swift */,
 			);
 			path = "AC3.2-PeriodicTable";
 			sourceTree = "<group>";
 		};
-		D383587B1E0ADACC00337886 /* Controllers */ = {
+		D3C93DB11E0AFACB00D5F5F8 /* Nibs */ = {
 			isa = PBXGroup;
 			children = (
-				D38358791E0ADAC800337886 /* CollectionViewController.swift */,
+				D3C93DB41E0AFB1200D5F5F8 /* ElementView.swift */,
+				D3C93DB21E0AFADD00D5F5F8 /* ElementView.xib */,
+				D3C93DBA1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift */,
+				D3C93DBB1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib */,
 			);
-			name = Controllers;
-			sourceTree = "<group>";
-		};
-		D383587C1E0ADAD400337886 /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				D383586B1E0AD9EF00337886 /* Main.storyboard */,
-				D383587E1E0ADB9300337886 /* ElementCollectionViewCell.swift */,
-				D383587F1E0ADB9300337886 /* ElementCollectionViewCell.xib */,
-				D38358821E0ADC5300337886 /* ElementView.swift */,
-				D38358841E0ADC6E00337886 /* ElementView.xib */,
-				D383586E1E0AD9EF00337886 /* Assets.xcassets */,
-				D38358701E0AD9F000337886 /* LaunchScreen.storyboard */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		D383587D1E0ADADE00337886 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Models;
+			name = Nibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D38358631E0AD9EF00337886 /* AC3.2-PeriodicTable */ = {
+		D3C93D991E0AFA6000D5F5F8 /* AC3.2-PeriodicTable */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D38358761E0AD9F000337886 /* Build configuration list for PBXNativeTarget "AC3.2-PeriodicTable" */;
+			buildConfigurationList = D3C93DAC1E0AFA6100D5F5F8 /* Build configuration list for PBXNativeTarget "AC3.2-PeriodicTable" */;
 			buildPhases = (
-				D38358601E0AD9EF00337886 /* Sources */,
-				D38358611E0AD9EF00337886 /* Frameworks */,
-				D38358621E0AD9EF00337886 /* Resources */,
+				D3C93D961E0AFA6000D5F5F8 /* Sources */,
+				D3C93D971E0AFA6000D5F5F8 /* Frameworks */,
+				D3C93D981E0AFA6000D5F5F8 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -117,26 +101,26 @@
 			);
 			name = "AC3.2-PeriodicTable";
 			productName = "AC3.2-PeriodicTable";
-			productReference = D38358641E0AD9EF00337886 /* AC3.2-PeriodicTable.app */;
+			productReference = D3C93D9A1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D383585C1E0AD9EF00337886 /* Project object */ = {
+		D3C93D921E0AFA6000D5F5F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0810;
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Marty Hernandez Avedon";
 				TargetAttributes = {
-					D38358631E0AD9EF00337886 = {
+					D3C93D991E0AFA6000D5F5F8 = {
 						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = D383585F1E0AD9EF00337886 /* Build configuration list for PBXProject "AC3.2-PeriodicTable" */;
+			buildConfigurationList = D3C93D951E0AFA6000D5F5F8 /* Build configuration list for PBXProject "AC3.2-PeriodicTable" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -144,58 +128,58 @@
 				en,
 				Base,
 			);
-			mainGroup = D383585B1E0AD9EF00337886;
-			productRefGroup = D38358651E0AD9EF00337886 /* Products */;
+			mainGroup = D3C93D911E0AFA6000D5F5F8;
+			productRefGroup = D3C93D9B1E0AFA6000D5F5F8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D38358631E0AD9EF00337886 /* AC3.2-PeriodicTable */,
+				D3C93D991E0AFA6000D5F5F8 /* AC3.2-PeriodicTable */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D38358621E0AD9EF00337886 /* Resources */ = {
+		D3C93D981E0AFA6000D5F5F8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D38358721E0AD9F000337886 /* LaunchScreen.storyboard in Resources */,
-				D383586F1E0AD9EF00337886 /* Assets.xcassets in Resources */,
-				D383586D1E0AD9EF00337886 /* Main.storyboard in Resources */,
-				D38358811E0ADB9300337886 /* ElementCollectionViewCell.xib in Resources */,
-				D38358851E0ADC6E00337886 /* ElementView.xib in Resources */,
+				D3C93DA81E0AFA6100D5F5F8 /* LaunchScreen.storyboard in Resources */,
+				D3C93DBD1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib in Resources */,
+				D3C93DB31E0AFADD00D5F5F8 /* ElementView.xib in Resources */,
+				D3C93DA51E0AFA6100D5F5F8 /* Assets.xcassets in Resources */,
+				D3C93DA31E0AFA6100D5F5F8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D38358601E0AD9EF00337886 /* Sources */ = {
+		D3C93D961E0AFA6000D5F5F8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D383587A1E0ADAC800337886 /* CollectionViewController.swift in Sources */,
-				D38358831E0ADC5300337886 /* ElementView.swift in Sources */,
-				D38358801E0ADB9300337886 /* ElementCollectionViewCell.swift in Sources */,
-				D38358681E0AD9EF00337886 /* AppDelegate.swift in Sources */,
+				D3C93DB01E0AFA8A00D5F5F8 /* CollectionViewController.swift in Sources */,
+				D3C93DB51E0AFB1200D5F5F8 /* ElementView.swift in Sources */,
+				D3C93D9E1E0AFA6000D5F5F8 /* AppDelegate.swift in Sources */,
+				D3C93DBC1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D383586B1E0AD9EF00337886 /* Main.storyboard */ = {
+		D3C93DA11E0AFA6100D5F5F8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D383586C1E0AD9EF00337886 /* Base */,
+				D3C93DA21E0AFA6100D5F5F8 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D38358701E0AD9F000337886 /* LaunchScreen.storyboard */ = {
+		D3C93DA61E0AFA6100D5F5F8 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D38358711E0AD9F000337886 /* Base */,
+				D3C93DA71E0AFA6100D5F5F8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -203,7 +187,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D38358741E0AD9F000337886 /* Debug */ = {
+		D3C93DAA1E0AFA6100D5F5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -253,7 +237,7 @@
 			};
 			name = Debug;
 		};
-		D38358751E0AD9F000337886 /* Release */ = {
+		D3C93DAB1E0AFA6100D5F5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -296,7 +280,7 @@
 			};
 			name = Release;
 		};
-		D38358771E0AD9F000337886 /* Debug */ = {
+		D3C93DAD1E0AFA6100D5F5F8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -308,7 +292,7 @@
 			};
 			name = Debug;
 		};
-		D38358781E0AD9F000337886 /* Release */ = {
+		D3C93DAE1E0AFA6100D5F5F8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,24 +307,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D383585F1E0AD9EF00337886 /* Build configuration list for PBXProject "AC3.2-PeriodicTable" */ = {
+		D3C93D951E0AFA6000D5F5F8 /* Build configuration list for PBXProject "AC3.2-PeriodicTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D38358741E0AD9F000337886 /* Debug */,
-				D38358751E0AD9F000337886 /* Release */,
+				D3C93DAA1E0AFA6100D5F5F8 /* Debug */,
+				D3C93DAB1E0AFA6100D5F5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D38358761E0AD9F000337886 /* Build configuration list for PBXNativeTarget "AC3.2-PeriodicTable" */ = {
+		D3C93DAC1E0AFA6100D5F5F8 /* Build configuration list for PBXNativeTarget "AC3.2-PeriodicTable" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D38358771E0AD9F000337886 /* Debug */,
-				D38358781E0AD9F000337886 /* Release */,
+				D3C93DAD1E0AFA6100D5F5F8 /* Debug */,
+				D3C93DAE1E0AFA6100D5F5F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D383585C1E0AD9EF00337886 /* Project object */;
+	rootObject = D3C93D921E0AFA6000D5F5F8 /* Project object */;
 }
