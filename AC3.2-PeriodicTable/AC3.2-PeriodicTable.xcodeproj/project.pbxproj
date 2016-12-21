@@ -21,6 +21,7 @@
 		D3C93DC41E0B165600D5F5F8 /* Elements+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */; };
 		D3C93DC61E0B175B00D5F5F8 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */; };
 		D3C93DC81E0B18E400D5F5F8 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC71E0B18E400D5F5F8 /* Element.swift */; };
+		D3C93DCB1E0B19D300D5F5F8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3C93DCA1E0B19D300D5F5F8 /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Elements+JSON.swift"; sourceTree = "<group>"; };
 		D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
 		D3C93DC71E0B18E400D5F5F8 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		D3C93DCA1E0B19D300D5F5F8 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C93DCB1E0B19D300D5F5F8 /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +61,7 @@
 			children = (
 				D3C93D9C1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable */,
 				D3C93D9B1E0AFA6000D5F5F8 /* Products */,
+				D3C93DC91E0B19D200D5F5F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +101,14 @@
 				D3C93DBB1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib */,
 			);
 			name = Nibs;
+			sourceTree = "<group>";
+		};
+		D3C93DC91E0B19D200D5F5F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3C93DCA1E0B19D300D5F5F8 /* CoreData.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

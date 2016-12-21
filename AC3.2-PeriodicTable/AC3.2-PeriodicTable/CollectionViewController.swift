@@ -7,10 +7,13 @@
 //
 
 import UIKit
+import CoreData
 
 private let reuseIdentifier = "Cell"
 
-class CollectionViewController: UICollectionViewController {
+class CollectionViewController: UICollectionViewController, NSFetchedResultsControllerDelegate {
+    
+    var fetchedResultsController: NSFetchedResultsController<Element>!
     
     let data = [("H", 1), ("He", 2), ("Li", 3)]
     
@@ -41,19 +44,15 @@ class CollectionViewController: UICollectionViewController {
                 }
             }
         }
+        initializeFetchedResultsController()
     }
 
     func initializeFetchedResultsController() {
         let moc = (UIApplication.shared.delegate as! AppDelegate).dataController.managedObjectContext
         
-        let request = NSFetchRequest<Article>(entityName: "Article")
+        let request = NSFetchRequest<Element>(entityName: "Element")
         let sort = NSSortDescriptor(key: "title", ascending: true)
         request.sortDescriptors = [sort]
-        
-        if let search = self.searchTerm {
-            let predicate = NSPredicate(format: "section < %@", search)
-            request.predicate = predicate
-        }
         
         fetchedResultsController = NSFetchedResultsController(fetchRequest: request, managedObjectContext: moc, sectionNameKeyPath: nil, cacheName: nil)
         fetchedResultsController.delegate = self
