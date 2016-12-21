@@ -16,6 +16,11 @@
 		D3C93DB51E0AFB1200D5F5F8 /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DB41E0AFB1200D5F5F8 /* ElementView.swift */; };
 		D3C93DBC1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DBA1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift */; };
 		D3C93DBD1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3C93DBB1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib */; };
+		D3C93DC01E0B104E00D5F5F8 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DBE1E0B104E00D5F5F8 /* Model.xcdatamodeld */; };
+		D3C93DC21E0B151200D5F5F8 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC11E0B151200D5F5F8 /* DataController.swift */; };
+		D3C93DC41E0B165600D5F5F8 /* Elements+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */; };
+		D3C93DC61E0B175B00D5F5F8 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */; };
+		D3C93DC81E0B18E400D5F5F8 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C93DC71E0B18E400D5F5F8 /* Element.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +35,11 @@
 		D3C93DB41E0AFB1200D5F5F8 /* ElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
 		D3C93DBA1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementCollectionViewCell.swift; sourceTree = "<group>"; };
 		D3C93DBB1E0AFB6900D5F5F8 /* ElementCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ElementCollectionViewCell.xib; sourceTree = "<group>"; };
+		D3C93DBF1E0B104E00D5F5F8 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		D3C93DC11E0B151200D5F5F8 /* DataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Elements+JSON.swift"; sourceTree = "<group>"; };
+		D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
+		D3C93DC71E0B18E400D5F5F8 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,10 @@
 		D3C93D9C1E0AFA6000D5F5F8 /* AC3.2-PeriodicTable */ = {
 			isa = PBXGroup;
 			children = (
+				D3C93DC71E0B18E400D5F5F8 /* Element.swift */,
+				D3C93DC11E0B151200D5F5F8 /* DataController.swift */,
+				D3C93DC31E0B165600D5F5F8 /* Elements+JSON.swift */,
+				D3C93DBE1E0B104E00D5F5F8 /* Model.xcdatamodeld */,
 				D3C93DB11E0AFACB00D5F5F8 /* Nibs */,
 				D3C93D9D1E0AFA6000D5F5F8 /* AppDelegate.swift */,
 				D3C93DA11E0AFA6100D5F5F8 /* Main.storyboard */,
@@ -69,6 +83,7 @@
 				D3C93DA61E0AFA6100D5F5F8 /* LaunchScreen.storyboard */,
 				D3C93DA91E0AFA6100D5F5F8 /* Info.plist */,
 				D3C93DAF1E0AFA8A00D5F5F8 /* CollectionViewController.swift */,
+				D3C93DC51E0B175B00D5F5F8 /* APIRequestManager.swift */,
 			);
 			path = "AC3.2-PeriodicTable";
 			sourceTree = "<group>";
@@ -158,8 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3C93DC61E0B175B00D5F5F8 /* APIRequestManager.swift in Sources */,
 				D3C93DB01E0AFA8A00D5F5F8 /* CollectionViewController.swift in Sources */,
+				D3C93DC81E0B18E400D5F5F8 /* Element.swift in Sources */,
+				D3C93DC21E0B151200D5F5F8 /* DataController.swift in Sources */,
 				D3C93DB51E0AFB1200D5F5F8 /* ElementView.swift in Sources */,
+				D3C93DC01E0B104E00D5F5F8 /* Model.xcdatamodeld in Sources */,
+				D3C93DC41E0B165600D5F5F8 /* Elements+JSON.swift in Sources */,
 				D3C93D9E1E0AFA6000D5F5F8 /* AppDelegate.swift in Sources */,
 				D3C93DBC1E0AFB6900D5F5F8 /* ElementCollectionViewCell.swift in Sources */,
 			);
@@ -325,6 +345,19 @@
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D3C93DBE1E0B104E00D5F5F8 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D3C93DBF1E0B104E00D5F5F8 /* Model.xcdatamodel */,
+			);
+			currentVersion = D3C93DBF1E0B104E00D5F5F8 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D3C93D921E0AFA6000D5F5F8 /* Project object */;
 }

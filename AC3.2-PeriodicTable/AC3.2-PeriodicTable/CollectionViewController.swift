@@ -13,6 +13,12 @@ private let reuseIdentifier = "Cell"
 class CollectionViewController: UICollectionViewController {
     
     let data = [("H", 1), ("He", 2), ("Li", 3)]
+    
+    let getString = "https://api.fieldbook.com/v1/58488d40b3e2ba03002df662/elements"
+    let baseImgString = "https://s3.amazonaws.com/ac3.2-elements/"
+    let thumbSuffix = "_200.png"
+    
+    var elements: [Element]?
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,22 +30,41 @@ class CollectionViewController: UICollectionViewController {
         self.collectionView!.register(UINib(nibName:"ElementCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: reuseIdentifier)
 
         // Do any additional setup after loading the view.
+        
+        APIRequestManager.manager.getData(endPoint: getString) { (data: Data?) in
+            if let validData = data,
+                let elementArr = Element.createElementArr(from: validData) {
+                self.elements = elementArr
+                
+                DispatchQueue.main.async {
+                    self.collectionView?.reloadData()
+                }
+            }
+        }
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func initializeFetchedResultsController() {
+        let moc = (UIApplication.shared.delegate as! AppDelegate).dataController.managedObjectContext
+        
+        let request = NSFetchRequest<Article>(entityName: "Article")
+        let sort = NSSortDescriptor(key: "title", ascending: true)
+        request.sortDescriptors = [sort]
+        
+        if let search = self.searchTerm {
+            let predicate = NSPredicate(format: "section < %@", search)
+            request.predicate = predicate
+        }
+        
+        fetchedResultsController = NSFetchedResultsController(fetchRequest: request, managedObjectContext: moc, sectionNameKeyPath: nil, cacheName: nil)
+        fetchedResultsController.delegate = self
+        
+        do {
+            try fetchedResultsController.performFetch()
+        }
+        catch {
+            fatalError("Failed to initialize FetchedResultsController: \(error)")
+        }
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using [segue destinationViewController].
-        // Pass the selected object to the new view controller.
-    }
-    */
 
     // MARK: UICollectionViewDataSource
 
